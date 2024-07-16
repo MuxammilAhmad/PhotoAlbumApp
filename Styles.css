@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: burlywood;
+}
+ 
+h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+.album-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album-list li {
+  margin: 10px;
+  width: 200px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.album-list li:hover {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.album-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album-details li {
+  margin: 10px;
+  width: 200px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.album-details li img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.album-details li p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post-list li {
+  margin: 10px;
+  width: 200px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.post-list li h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.post-list li p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
